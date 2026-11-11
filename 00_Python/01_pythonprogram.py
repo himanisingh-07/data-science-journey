@@ -1383,9 +1383,30 @@ while True:
     else:
 
         print("\nInvalid choice! Please try again.")
+
 '''
-a = 6
-b = 3
-a /= 2 * b
-print(a)
+# ------------------------------------------------------------
+#PATTERN CODES
+# ------------------------------------------------------------
+#01.Right-Angled Triangle (Half Pyramid)
+
+n = 5
+for i in range(1, n + 1):
+    print("* " * i)
+
+#02. Inverted Right-Angled Triangle
+
+n = 5
+for i in range(n, 0, -1):
+    print("* " * i)
+
+#03. Floyd's Triangle
+
+n, num = 4, 1
+for i in range(1, n + 1):
+    for j in range(1, i + 1):
+        print(num, end=" ")
+        num += 1
+    print()
+
 
