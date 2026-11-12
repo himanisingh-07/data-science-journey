@@ -52,6 +52,11 @@ VALUES
 (3,"Aanya",19,"MECHANICAL",6.0),
 (4,"Diya",21,"CSE AIDS",7.0),
 (5,"Ankush",22,"CSE",8.8);
+USE college_db;
+SELECT * FROM student_info;
+SELECT goal, deadline FROM student_info;
+
+DESCRIBE student_info;  # to see the structure of the table
 
  
 
