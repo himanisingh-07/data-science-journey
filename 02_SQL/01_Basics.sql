@@ -45,13 +45,15 @@ CREATE TABLE student_info(
 );
 SELECT * FROM student_info;
 ALTER TABLE student_info ADD department VARCHAR(50);
-INSERT INTO student_info
+
+INSERT INTO student_info (stu_id, first_name, last_name, goal, deadline, department)
 VALUES
-(1,"Aman","Rajput","CSE",7.8),
-(2,"Aradhya",21,"CSE AIML",7.5),
-(3,"Aanya",19,"MECHANICAL",6.0),
-(4,"Diya",21,"CSE AIDS",7.0),
-(5,"Ankush",22,"CSE",8.8);
+(1, "Aman", "Rajput", "Software Engineer", "2026-12-31 23:59:59", "CSE"),
+(2, "Aradhya", "Sharma", "AI Researcher", "2026-11-30 18:00:00", "CSE AIML"),
+(3, "Aanya", "Verma", "Robotics Engineer", "2027-05-15 12:00:00", "MECHANICAL"),
+(4, "Diya", "Patel", "Data Scientist", "2026-10-20 09:00:00", "CSE AIDS"),
+(5, "Ankush", "Kumar", "Cloud Architect", "2027-01-10 17:30:00", "CSE");
+
 USE college_db;
 SELECT * FROM student_info;
 SELECT goal, deadline FROM student_info;
