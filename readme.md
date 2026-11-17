@@ -1,4 +1,4 @@
-🚀 Data Science Journey
+🚀 DATA SCIENCE JOURNEY 
 
 Learn → Practice → Build → Improve
 
