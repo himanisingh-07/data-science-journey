@@ -71,25 +71,23 @@ Tools: VS Code, Jupyter Notebook, MySQL Workbench, Git, GitHub
 Additional libraries and technologies will be added as I gain practical experience.
 
 ---
+## 📁 Repository Structure
 
-📂 Repository Structure
-
+```text
 data-science-journey/
-│
 ├── 00_Python/
 │   ├── 01_pythonprogram.py
 │   ├── BANK MANAGEMENT SYSTEM.py
 │   └── Hotel management project.py
-│
 ├── 01_Numpy/
 │   └── numpy.ipynb
-│
 ├── 02_SQL/
 │   └── 01_Basics.sql
-│
 └── README.md
+```
 
 Each folder contains my learning notes, practice exercises, experiments and projects related to its respective topic.
+
 
 ---
 
