@@ -24,3 +24,12 @@ FROM (
     GROUP BY num
     HAVING COUNT(num) = 1
 ) AS unique_numbers;
+
+#----------------------------------------
+# 596. Classes With at Least 5 Students
+#----------------------------------------
+SELECT class
+FROM Courses
+GROUP BY class
+HAVING COUNT(DISTINCT student) >= 5;
+
